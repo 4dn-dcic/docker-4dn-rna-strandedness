@@ -1,0 +1,10 @@
+{
+    "fastq": {
+        "class": "File",
+        "path": "../test_files/test.fastq.gz"
+    },
+    "ACTB_reference": {
+        "class": "File",
+        "path": "../test_files/ACTB_reference.txt"
+    }
+}
