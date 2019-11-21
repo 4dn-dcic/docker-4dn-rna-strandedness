@@ -33,4 +33,4 @@ outputs:
    outputBinding:
     glob: "$(inputs.outdir + '/' + '*match_count.txt')"
 
-baseCommand: ["run-rna-standedness.sh"]
+baseCommand: ["run-rna-strandedness.sh"]
