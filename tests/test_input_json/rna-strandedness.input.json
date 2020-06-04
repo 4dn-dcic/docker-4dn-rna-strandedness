@@ -5,6 +5,6 @@
     },
     "ACTB_reference": {
         "class": "File",
-        "path": "../test_files/ACTB_reference.txt"
+        "path": "../test_files/reference_file.txt"
     }
 }

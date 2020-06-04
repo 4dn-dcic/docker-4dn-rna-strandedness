@@ -6,7 +6,7 @@ cwlVersion: v1.0
 
 requirements:
 - class: DockerRequirement
-  dockerPull: "4dndcic/4dn-rna-strandness:v1"
+  dockerPull: "4dndcic/4dn-rna-strandedness:v2"
 
 - class: "InlineJavascriptRequirement"
 
@@ -33,4 +33,4 @@ outputs:
    outputBinding:
     glob: "$(inputs.outdir + '/' + '*match_count.txt')"
 
-baseCommand: ["run-rna-standness.sh"]
+baseCommand: ["run-rna-strandedness.sh"]

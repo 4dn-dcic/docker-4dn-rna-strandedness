@@ -1,1 +1,1 @@
-# rna-strandness
+# rna-strandedness
